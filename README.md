@@ -211,7 +211,11 @@ source ~/.bash_profile
 ```bash
 source ~/.zshrc
 ```
-
+4. 记得开启`Docker Desktop`,否则出现:
+```
+Cannot connect to the Docker daemon at unix:///Users/xxx/.docker/run/docker.sock. Is the docker daemon running?
+```   
+   
 ## 3. 方案使用
 
 配置完毕后，在任意目录下使用命令即可正常拉取镜像：
